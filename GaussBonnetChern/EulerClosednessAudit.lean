@@ -1,0 +1,17 @@
+import GaussBonnetChern.EulerClosedness
+
+/-! Public declaration type and axiom audit for EulerClosedness.
+Prepared source only; execution and validation belong to the central runner.
+Target source SHA256: A0EEA6F9F821B4E6C9EE4FCDDF34C99971DDBCDF574567E9F04258A358CA8D57. -/
+
+#check GaussBonnetChern.DifferentialForm.continuousAlternatingMap_eq_zero_of_finrank_lt
+#print axioms GaussBonnetChern.DifferentialForm.continuousAlternatingMap_eq_zero_of_finrank_lt
+
+#check GaussBonnetChern.DifferentialForm.exteriorDerivative_eq_zero_of_topDegree
+#print axioms GaussBonnetChern.DifferentialForm.exteriorDerivative_eq_zero_of_topDegree
+
+#check GaussBonnetChern.exteriorDerivative_topForm
+#print axioms GaussBonnetChern.exteriorDerivative_topForm
+
+#check GaussBonnetChern.exteriorDerivative_atlasEulerForm
+#print axioms GaussBonnetChern.exteriorDerivative_atlasEulerForm

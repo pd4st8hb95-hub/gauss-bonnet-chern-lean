@@ -1,0 +1,10 @@
+moreLeanArgs = ["-j1", "-M4096"]
+name = "LeanSearchClient"
+testDriver = "LeanSearchClientTest"
+defaultTargets = ["LeanSearchClient"]
+
+[[lean_lib]]
+name = "LeanSearchClient"
+
+[[lean_lib]]
+name = "LeanSearchClientTest"

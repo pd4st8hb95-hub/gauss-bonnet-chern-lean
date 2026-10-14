@@ -1,0 +1,80 @@
+{
+  "lean": "4.34.1",
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "upstream": "https://github.com/leanprover-community/mathlib4",
+      "revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "plausible",
+      "upstream": "https://github.com/leanprover-community/plausible",
+      "revision": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "LeanSearchClient",
+      "upstream": "https://github.com/leanprover-community/LeanSearchClient",
+      "revision": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "importGraph",
+      "upstream": "https://github.com/leanprover-community/import-graph",
+      "revision": "e928b72544873815af278d38681b31c0293588e3",
+      "licenses": [
+        "LICENSE",
+        "html-template/vendor/graphology-LICENSE",
+        "html-template/vendor/sigma-LICENSE"
+      ]
+    },
+    {
+      "name": "proofwidgets",
+      "upstream": "https://github.com/leanprover-community/ProofWidgets4",
+      "revision": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "aesop",
+      "upstream": "https://github.com/leanprover-community/aesop",
+      "revision": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "Qq",
+      "upstream": "https://github.com/leanprover-community/quote4",
+      "revision": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "batteries",
+      "upstream": "https://github.com/leanprover-community/batteries",
+      "revision": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "licenses": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "Cli",
+      "upstream": "https://github.com/leanprover/lean4-cli",
+      "revision": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "licenses": [
+        "LICENSE"
+      ]
+    }
+  ],
+  "configuration_changes": "Only relative local dependency paths and -j1 -M4096 compiler limits; mathematical source bytes unchanged."
+}

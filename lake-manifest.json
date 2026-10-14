@@ -1,0 +1,90 @@
+{
+  "version": "1.2.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "name": "mathlib",
+      "scope": "leanprover-community",
+      "inherited": false,
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/mathlib"
+    },
+    {
+      "name": "plausible",
+      "scope": "leanprover-community",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/plausible"
+    },
+    {
+      "name": "LeanSearchClient",
+      "scope": "leanprover-community",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/LeanSearchClient"
+    },
+    {
+      "name": "importGraph",
+      "scope": "leanprover-community",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/importGraph"
+    },
+    {
+      "name": "proofwidgets",
+      "scope": "leanprover-community",
+      "inherited": true,
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/proofwidgets"
+    },
+    {
+      "name": "aesop",
+      "scope": "leanprover-community",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/aesop"
+    },
+    {
+      "name": "Qq",
+      "scope": "leanprover-community",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/Qq"
+    },
+    {
+      "name": "batteries",
+      "scope": "leanprover-community",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/batteries"
+    },
+    {
+      "name": "Cli",
+      "scope": "leanprover",
+      "inherited": true,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "vendor/Cli"
+    }
+  ],
+  "name": "gaussBonnetChern",
+  "lakeDir": ".lake",
+  "fixedToolchain": false
+}

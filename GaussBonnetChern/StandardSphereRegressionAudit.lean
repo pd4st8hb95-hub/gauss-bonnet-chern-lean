@@ -1,0 +1,109 @@
+import GaussBonnetChern.StandardSphereRegression
+
+/-! # Complete standard-sphere geometry and concrete regression audit
+
+SOURCE_ONLY audit input. No Lean/Lake execution by this writer.
+Frozen StandardSphereGeometry source SHA256:
+014CB7F4EF0FD74918D67249AC078C6883DA77EAECE2B8E04BE13CABB62D9382
+Frozen StandardSphereRegression source SHA256:
+7284C4452B32600F84E784FC2CE256245B9EC722C2D264AC8958ECC69536D0A0
+
+This file inventories all 22 geometry public declarations and all 8 concrete
+regression public declarations. Each actual elaborated statement is printed
+with #check, followed by a full transitive axiom audit. Private geometry
+helpers are checked transitively through the constructed metric proofs.
+The standard-sphere integral statements depend on GBC and actual singular
+homology. They do not independently calculate curvature components or area.
+-/
+
+-- Geometry: all 22 public declarations.
+#check GaussBonnetChern.StandardSphereGeometry.Ambient
+#print axioms GaussBonnetChern.StandardSphereGeometry.Ambient
+
+#check GaussBonnetChern.StandardSphereGeometry.Sphere
+#print axioms GaussBonnetChern.StandardSphereGeometry.Sphere
+
+#check GaussBonnetChern.StandardSphereGeometry.ambientDimension
+#print axioms GaussBonnetChern.StandardSphereGeometry.ambientDimension
+
+#check GaussBonnetChern.StandardSphereGeometry.compactSphere
+#print axioms GaussBonnetChern.StandardSphereGeometry.compactSphere
+
+#check GaussBonnetChern.StandardSphereGeometry.inclusion
+#print axioms GaussBonnetChern.StandardSphereGeometry.inclusion
+
+#check GaussBonnetChern.StandardSphereGeometry.inclusion_contMDiff
+#print axioms GaussBonnetChern.StandardSphereGeometry.inclusion_contMDiff
+
+#check GaussBonnetChern.StandardSphereGeometry.inclusionDerivative
+#print axioms GaussBonnetChern.StandardSphereGeometry.inclusionDerivative
+
+#check GaussBonnetChern.StandardSphereGeometry.inclusionDerivative_injective
+#print axioms GaussBonnetChern.StandardSphereGeometry.inclusionDerivative_injective
+
+#check GaussBonnetChern.StandardSphereGeometry.inclusionDerivative_range
+#print axioms GaussBonnetChern.StandardSphereGeometry.inclusionDerivative_range
+
+#check GaussBonnetChern.StandardSphereGeometry.inducedInner
+#print axioms GaussBonnetChern.StandardSphereGeometry.inducedInner
+
+#check GaussBonnetChern.StandardSphereGeometry.inducedInner_apply
+#print axioms GaussBonnetChern.StandardSphereGeometry.inducedInner_apply
+
+#check GaussBonnetChern.StandardSphereGeometry.inducedInner_symm
+#print axioms GaussBonnetChern.StandardSphereGeometry.inducedInner_symm
+
+#check GaussBonnetChern.StandardSphereGeometry.inducedInner_pos
+#print axioms GaussBonnetChern.StandardSphereGeometry.inducedInner_pos
+
+#check GaussBonnetChern.StandardSphereGeometry.inducedInner_isVonNBounded
+#print axioms GaussBonnetChern.StandardSphereGeometry.inducedInner_isVonNBounded
+
+#check GaussBonnetChern.StandardSphereGeometry.inducedInner_contMDiff
+#print axioms GaussBonnetChern.StandardSphereGeometry.inducedInner_contMDiff
+
+#check GaussBonnetChern.StandardSphereGeometry.inducedMetric
+#print axioms GaussBonnetChern.StandardSphereGeometry.inducedMetric
+
+#check GaussBonnetChern.StandardSphereGeometry.inducedMetric_inner
+#print axioms GaussBonnetChern.StandardSphereGeometry.inducedMetric_inner
+
+#check GaussBonnetChern.StandardSphereGeometry.outwardBasis
+#print axioms GaussBonnetChern.StandardSphereGeometry.outwardBasis
+
+#check GaussBonnetChern.StandardSphereGeometry.orientedAtlas
+#print axioms GaussBonnetChern.StandardSphereGeometry.orientedAtlas
+
+#check GaussBonnetChern.StandardSphereGeometry.orientedAtlas_exists_partition
+#print axioms GaussBonnetChern.StandardSphereGeometry.orientedAtlas_exists_partition
+
+#check GaussBonnetChern.StandardSphereGeometry.standardSphere_statement
+#print axioms GaussBonnetChern.StandardSphereGeometry.standardSphere_statement
+
+#check GaussBonnetChern.StandardSphereGeometry.standardSphere_curvatureIntegral
+#print axioms GaussBonnetChern.StandardSphereGeometry.standardSphere_curvatureIntegral
+
+-- Explicit S²/S⁴ regressions: all 8 public declarations.
+#check GaussBonnetChern.StandardSphereRegression.TwoSphere
+#print axioms GaussBonnetChern.StandardSphereRegression.TwoSphere
+
+#check GaussBonnetChern.StandardSphereRegression.FourSphere
+#print axioms GaussBonnetChern.StandardSphereRegression.FourSphere
+
+#check GaussBonnetChern.StandardSphereRegression.twoSphereAtlas
+#print axioms GaussBonnetChern.StandardSphereRegression.twoSphereAtlas
+
+#check GaussBonnetChern.StandardSphereRegression.fourSphereAtlas
+#print axioms GaussBonnetChern.StandardSphereRegression.fourSphereAtlas
+
+#check GaussBonnetChern.StandardSphereRegression.twoSphere_curvatureIntegral
+#print axioms GaussBonnetChern.StandardSphereRegression.twoSphere_curvatureIntegral
+
+#check GaussBonnetChern.StandardSphereRegression.fourSphere_curvatureIntegral
+#print axioms GaussBonnetChern.StandardSphereRegression.fourSphere_curvatureIntegral
+
+#check GaussBonnetChern.StandardSphereRegression.twoSphere_exists_subordinate_integral
+#print axioms GaussBonnetChern.StandardSphereRegression.twoSphere_exists_subordinate_integral
+
+#check GaussBonnetChern.StandardSphereRegression.fourSphere_exists_subordinate_integral
+#print axioms GaussBonnetChern.StandardSphereRegression.fourSphere_exists_subordinate_integral

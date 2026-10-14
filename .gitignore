@@ -1,0 +1,7 @@
+.lake/
+**/.lake/
+*.olean
+*.ilean
+*.pdf
+node_modules/
+**/node_modules/

@@ -1,0 +1,13 @@
+moreLeanArgs = ["-j1", "-M4096"]
+name = "gaussBonnetChern"
+version = "0.1.0"
+defaultTargets = ["GaussBonnetChern"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+path = "vendor/mathlib"
+
+[[lean_lib]]
+name = "GaussBonnetChern"
+moreLeanArgs = ["-j1", "-M4096"]

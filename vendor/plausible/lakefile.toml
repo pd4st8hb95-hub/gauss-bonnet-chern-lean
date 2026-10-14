@@ -1,0 +1,11 @@
+moreLeanArgs = ["-j1", "-M4096"]
+name = "plausible"
+version = "0.1.0"
+defaultTargets = ["Plausible"]
+testRunner = "PlausibleTest"
+
+[[lean_lib]]
+name = "PlausibleTest"
+
+[[lean_lib]]
+name = "Plausible"

@@ -1,0 +1,18 @@
+{
+  "version": "1.2.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "name": "Cli",
+      "scope": "leanprover",
+      "inherited": false,
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json",
+      "type": "path",
+      "dir": "../Cli"
+    }
+  ],
+  "name": "importGraph",
+  "lakeDir": ".lake",
+  "fixedToolchain": false
+}

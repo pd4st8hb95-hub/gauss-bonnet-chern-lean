@@ -1,0 +1,33 @@
+import GaussBonnetChern.MainRegression
+
+/-! Public declaration and axiom audit for the exact main regressions. -/
+
+#check GaussBonnetChern.MainRegression.curvature_eq_chi
+#check GaussBonnetChern.MainRegression.partition_change
+#check GaussBonnetChern.MainRegression.compatible_atlas_change
+#check GaussBonnetChern.MainRegression.opposite_orientation
+#check GaussBonnetChern.MainRegression.emptyAtlas
+#check GaussBonnetChern.MainRegression.emptyMetric
+#check GaussBonnetChern.MainRegression.empty_main
+#check GaussBonnetChern.MainRegression.empty_euler
+#check GaussBonnetChern.MainRegression.empty_curvature
+#check GaussBonnetChern.MainRegression.component_homology_bound
+#check GaussBonnetChern.MainRegression.sigma_homology_bound
+#check GaussBonnetChern.MainRegression.sigma_euler_additivity
+#check GaussBonnetChern.MainRegression.sigma_main
+#check GaussBonnetChern.MainRegression.sigma_curvature_euler_additivity
+
+#print axioms GaussBonnetChern.MainRegression.curvature_eq_chi
+#print axioms GaussBonnetChern.MainRegression.partition_change
+#print axioms GaussBonnetChern.MainRegression.compatible_atlas_change
+#print axioms GaussBonnetChern.MainRegression.opposite_orientation
+#print axioms GaussBonnetChern.MainRegression.emptyAtlas
+#print axioms GaussBonnetChern.MainRegression.emptyMetric
+#print axioms GaussBonnetChern.MainRegression.empty_main
+#print axioms GaussBonnetChern.MainRegression.empty_euler
+#print axioms GaussBonnetChern.MainRegression.empty_curvature
+#print axioms GaussBonnetChern.MainRegression.component_homology_bound
+#print axioms GaussBonnetChern.MainRegression.sigma_homology_bound
+#print axioms GaussBonnetChern.MainRegression.sigma_euler_additivity
+#print axioms GaussBonnetChern.MainRegression.sigma_main
+#print axioms GaussBonnetChern.MainRegression.sigma_curvature_euler_additivity

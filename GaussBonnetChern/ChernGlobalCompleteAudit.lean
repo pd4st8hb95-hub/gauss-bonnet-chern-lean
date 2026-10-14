@@ -1,0 +1,102 @@
+import GaussBonnetChern.ChernGeometricTransgression
+import GaussBonnetChern.ChernFiberNormalization
+
+/- Public named declaration axiom audit for the frozen global/fiber/endpoint/transgression
+branch. SOURCE_ONLY: this script has not been run. Private helper dependencies are
+included in the transitive axiom closures of the public declarations that use them.
+This audit does not by itself establish the Gauss-Bonnet-Chern main theorem. -/
+
+-- Module: GaussBonnetChern.ChernAngularForm
+-- Source SHA256: F67163D716B66E40DF6671E62F8C5972E6235B0FDFCAC5913233175A6B92F816
+#print axioms GaussBonnetChern.chartSphereAngularForm
+#print axioms GaussBonnetChern.atlasSphereAngularForm
+#print axioms GaussBonnetChern.sphereEulerForm
+#print axioms GaussBonnetChern.chartSphereAngularForm_eq_on_overlap
+#print axioms GaussBonnetChern.atlasSphereAngularForm_eq_chart
+#print axioms GaussBonnetChern.atlasSphereAngularForm_eventuallyEq_chart
+#print axioms GaussBonnetChern.atlasSphereAngularForm_independent_of_chart_choice
+
+-- Module: GaussBonnetChern.ChernLocalTransgression
+-- Source SHA256: 58BB3C94984B8E7932378BE8D1C01CED739FD4539E4BDB37527B76A617F4C7FE
+#print axioms GaussBonnetChern.DifferentialForm.chartRepresentation_eventuallyEq_of_eventuallyEq
+#print axioms GaussBonnetChern.DifferentialForm.exteriorDerivative_eq_of_eventuallyEq
+#print axioms GaussBonnetChern.sphereFiberInclusion
+#print axioms GaussBonnetChern.proj_sphereFiberInclusion
+#print axioms GaussBonnetChern.contMDiff_sphereFiberInclusion
+#print axioms GaussBonnetChern.normalizedDirectionCoordinate_fiber
+#print axioms GaussBonnetChern.sphereFiber_pullback_horizontal
+#print axioms GaussBonnetChern.sphereConnectionForm
+#print axioms GaussBonnetChern.sphereCurvatureForm
+#print axioms GaussBonnetChern.sphereConnectionForm_fiber_zero
+#print axioms GaussBonnetChern.sphereCurvatureForm_fiber_zero
+#print axioms GaussBonnetChern.sphereDirectionCoordinate
+#print axioms GaussBonnetChern.sphereDirectionForm
+#print axioms GaussBonnetChern.sphereDirectionForm_orthogonal
+#print axioms GaussBonnetChern.sphereDirectionForm_fiber
+#print axioms GaussBonnetChern.pullback_frameTangentDirectionForm_at
+#print axioms GaussBonnetChern.frameDirectionCoordinate_fiber
+#print axioms GaussBonnetChern.frameTangentDirectionForm_fiber
+#print axioms GaussBonnetChern.frameTangentCurvatureForm_fiber_zero
+
+-- Module: GaussBonnetChern.ChernGlobalTransgression
+-- Source SHA256: F9157BCF4D966F83D0E84256C169290AB7E7369859A665AD3BA809B02561F626
+#print axioms GaussBonnetChern.DifferentialForm.pullback_eq_of_eventuallyEq_at
+#print axioms GaussBonnetChern.DifferentialForm.chartRepresentation_restrict_eventuallyEq
+#print axioms GaussBonnetChern.DifferentialForm.contDiffAt_chartRepresentation_of_smooth_restriction
+#print axioms GaussBonnetChern.DifferentialForm.contDiffAt_chartRepresentation_pullback_at
+#print axioms GaussBonnetChern.Chern.isSmooth_angularForm
+#print axioms GaussBonnetChern.chernTangentModel_eq_self
+#print axioms GaussBonnetChern.framePatchAngularForm
+#print axioms GaussBonnetChern.isSmooth_framePatchAngularForm
+#print axioms GaussBonnetChern.framePatchAngularForm_eq_restrict
+#print axioms GaussBonnetChern.contDiffAt_chartRepresentation_frameTangentAngularForm
+#print axioms GaussBonnetChern.contDiffAt_chartRepresentation_frameSphereAngularForm
+#print axioms GaussBonnetChern.isSmooth_atlasSphereAngularForm
+#print axioms GaussBonnetChern.exteriorDerivative_atlasSphereAngularForm_eq_chart
+
+-- Module: GaussBonnetChern.ChernFiberNormalization
+-- Source SHA256: 0455806AA7CC6C7DF5F9F6DA82B495B0F38048EBF5AA32E31EA3C133ECEDAC67
+#print axioms GaussBonnetChern.chernFiberModelBasis
+#print axioms GaussBonnetChern.frameSphereAngularForm_fiber_polynomial
+#print axioms GaussBonnetChern.frameSphereAngularForm_fiber_volume
+#print axioms GaussBonnetChern.atlasSphereAngularForm_fiber_volume
+#print axioms GaussBonnetChern.isSmooth_atlasSphereAngularForm_fiber
+#print axioms GaussBonnetChern.atlasSphereAngularForm_fiber_integral
+#print axioms GaussBonnetChern.atlasSphereAngularForm_fiber_chart_integral
+
+-- Module: GaussBonnetChern.ChernEulerEndpoint
+-- Source SHA256: AA0876FFC93FA1AC614FB8E4A18381F5FAE778C791CBE06A13AE99275A1CA6D3
+#print axioms GaussBonnetChern.Chern.endpointPairProduct
+#print axioms GaussBonnetChern.Chern.endpointPairProduct_eq_prod
+#print axioms GaussBonnetChern.Chern.twoFormProduct_apply_endpoint
+#print axioms GaussBonnetChern.Chern.twoFormProduct_apply_full_alternation
+#print axioms GaussBonnetChern.recurrencePolynomial_smoothFrame_top_euler
+
+-- Module: GaussBonnetChern.ChernOpenRestriction
+-- Source SHA256: 1C5EFC658F84FD37BEA04190F77E7F8BD0F55A76301BDF1ACB8AE02CAB063D39
+#print axioms GaussBonnetChern.DifferentialForm.pullback_open_inclusion_at_injective
+#print axioms GaussBonnetChern.framePatch_transgression_to_ambient
+
+-- Module: GaussBonnetChern.ChernTransgressionAssembly
+-- Source SHA256: F74E8E0D6203C048ACFB76511C61B92C9C98D4C227FA8740C164FA05CEDD9249
+#print axioms GaussBonnetChern.sphereAngularDerivative
+#print axioms GaussBonnetChern.exteriorDerivative_frameSphereAngularForm_at
+#print axioms GaussBonnetChern.sphereEulerForm_eq_chart_pullback
+#print axioms GaussBonnetChern.sphereAngularDerivative_eq_neg_euler_of_local_transgression
+
+-- Module: GaussBonnetChern.ChernSmoothTelescope
+-- Source SHA256: 3949463DAEEBA7C52B6796E7BE8C513C548CFE6877CFB0B41FA8B9C5D352E7B0
+#print axioms GaussBonnetChern.Chern.recurrence_telescope_fin
+#print axioms GaussBonnetChern.Chern.exteriorDerivative_angularForm_of_recurrence
+
+-- Module: GaussBonnetChern.ChernActualPatchRecurrence
+-- Source SHA256: 481DD0C57CFF92E3F6FC540A097AFB931252BA29E4A7EACB61527B15EEFA1520
+#print axioms GaussBonnetChern.Chern.exteriorDerivative_angularTerm_recurrence_of_components
+#print axioms GaussBonnetChern.exteriorDerivative_framePatch_angularTerm_recurrence
+
+-- Module: GaussBonnetChern.ChernGeometricTransgression
+-- Source SHA256: 41462CBEEF5255DF03F9CF7A9CBE36C3BA2426657D28A2369A69EC70222D596E
+#print axioms GaussBonnetChern.exteriorDerivative_framePatchAngularForm
+#print axioms GaussBonnetChern.framePatch_transgression
+#print axioms GaussBonnetChern.sphereAngularDerivative_eq_neg_euler
+
