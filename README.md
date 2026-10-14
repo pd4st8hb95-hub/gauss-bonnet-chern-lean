@@ -3,7 +3,7 @@
 A Lean 4 formalization of the Gauss–Bonnet–Chern theorem in every positive even dimension. For every integer `n ≥ 1` and every compact, oriented, smooth Riemannian manifold `M` of dimension `2n` without boundary,
 
 ```math
-\int_M \operatorname{Pf}\!\left(\frac{\Omega^{\mathrm{LC}}}{2\pi}\right)=\chi(M).
+\int_M \mathrm{Pf}\!\left(\frac{\Omega^{\mathrm{LC}}}{2\pi}\right)=\chi(M).
 ```
 
 Here `Ωᴸᶜ` is the Levi–Civita curvature matrix, and `χ(M)` is defined independently using real singular homology. Empty and disconnected manifolds are included. The statement covers every compatible finite oriented atlas, smooth metric, and subordinate smooth partition of unity.
